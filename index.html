@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+          spacing:{
+              30:"30px",
+              60:"60px",
+              140:"140px",
+          },
+        colors: {
+          primary:"#232340",
+          secondary:"#5468E7",
+          
+        },
+        backgroundImage:{
+          hero:"url9('/images/hero.png')",
+        },
+        colors: {
+            primary: "#5A4FF3",
+            golden: "#232340",
+            secondary: "#333461",
+            gray: "#232340",
+            dark: "#00008B",
+            blue: '#5468E7',
+            darkBlue: "#232340",
+          },
+      },
+    },
+  };
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <footer class="bg-darkBlue pt-[73px] px-[140px] pb-[37px] text-white">
+        <div class="flex gap-[130px] ">
+            <div class="space-y-4">
+                <img src="Logo (4).png" alt="logo" >
+                <p class="text-sm">Collaboration platform for mordern team</p>
+            </div>
+            <div class="flex gap-[71px] flex-row-reverse">
+                <div>
+                    <h2 class="text-2xl text-blue">Stay up to date </h2>
+                <p class="mt-4 text-sm">Subscribe to our newseller</p>
+                <form class="mt-[10px] py-[11px] rounded px-4 bg-[#F5F5F5] bg-opacity-20 relative">
+                    <input type="search" class=" bg-transparent rounded outline-none" placeholder="Email" required>
+                    <div class="absolute right-4 top-[11px]">a</div>
+                </form>
+                </div>
+                <div>
+                    <h2 class="text-2xl text-blue">Company</h2>
+                    <ul class="space-y-3 mt-4">
+                        <li>Procucts</li>
+                        <li>Blog</li>
+                        <li>Supports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+    
+</body>
+</html>
